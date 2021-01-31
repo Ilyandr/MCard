@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    android:id="@+id/main_linear">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.appcompat.widget.AppCompatButton
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_weight="1.08"
+         android:layout_gravity="top"
+         android:id="@+id/menu"
+         android:background="@drawable/ic_menu"
+         android:layout_margin="13sp"
+         tools:ignore="NestedWeights" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.03"
+            android:layout_margin="17sp"
+            android:background="@drawable/ic_lypa_btn"
+            android:id="@+id/btn_search"/>
+
+    <TextView
+        android:id="@+id/main_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.9"
+        android:text="@string/Main_text"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:layout_gravity="top"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.02"
+           android:background="@drawable/ic_test"
+            android:layout_margin="17sp"
+            android:layout_gravity="top"
+            android:id="@+id/btn_geolocation"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.02"
+        android:layout_gravity="top"
+        android:id="@+id/add"
+        android:background="@drawable/ic_plus"
+        android:layout_margin="13sp"/>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#FFFFFF"
+        tools:ignore="SmallSp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical"
+        android:id="@+id/help">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/list_item" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="230dp"
+    android:layout_height="match_parent"
+    tools:context="Fragments.Fragment_left_menu"
+    android:background="#D31C1C1C"
+    android:orientation="vertical"
+    android:id="@+id/LL_menu">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@mipmap/ic_launcher"
+        android:layout_margin="5sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/profile"
+        android:background="@drawable/ic_button_circle"
+        android:layout_margin="5sp"
+        android:text="Мой профиль"
+        android:textColor="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/zvon"
+        android:background="@drawable/ic_button_circle"
+        android:layout_margin="5sp"
+        android:text="Уведомления"
+        android:textColor="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/history"
+        android:background="@drawable/ic_button_circle"
+        android:layout_margin="5sp"
+        android:text="История операций"
+        android:textColor="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/options"
+        android:background="@drawable/ic_button_circle"
+        android:layout_margin="5sp"
+        android:text="Настройки"
+        android:textColor="@color/black"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="#AD1C1C1C"
+        android:id="@+id/test"/>
+
+</LinearLayout>

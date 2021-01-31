@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MCard</string>
+    <string name="Main_text">MCard</string>
+    <string name="photo">Photo</string>
+    <string name="video">Video</string>
+    <string name="text1">Для сохранения - нажмите на кнопку</string>
+    <string name="text0">Отсканируйте вашу карту ровно по границам</string>
+    <string name="text2">Сканировать</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
